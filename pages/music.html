@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header_footer_nav.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/music.css">
+    <script src="../js/music.js"></script>
+    
+    <title>MUSIC</title>
+</head>
+<body>
+    <div class="site_container">
+        <header>
+            <!--header nav bar -->
+            <div id="byrd_yrd_title">
+                <a id="header_logo_container" href="../index.html">
+                <img src="../files/images/BYRD YRD Logo WHITE BIGGER.png" alt="byrd_yrd_logo">
+                </a>
+                <h1 id="byrd_yrd">BYRD YRD</h1>
+                <script src="../js/header_logo.js"></script>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <!--<li><a href="../index.html">HOME</a></li>-->
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="music.html" current>MUSIC</a></li>
+                    <li><a href="about_me.html">ABOUT ME</a></li>
+                </ul>
+            </nav>
+            <div id="animated_line"></div>
+        </header>
+        <main>
+            <!--main & body-->
+            <div id="spotify_player"></div>
+            <div id="soundcloud_player"></div>
+            <script src="../js/soundcloud.js"></script>
+            <script src="../js/spotify.js"></script>
+
+            <!--socials links-->
+            <div id="socials_container">
+                <ul>
+                    <li><a href="https://open.spotify.com/artist/1zQ7Dm7Bs0stfLvPYYy0ov?si=3cpZ4_J9TDirCW177h87jw&nd=1&dlsi=4117d24c6c534dd1" target="_blank">
+                        <img class="favicon" src="../files/favicons/spotify_favicon.png" alt="Spotify"></a></li>
+                    <li><a href="https://music.apple.com/us/artist/byrd-yrd/1534844602" target="_blank">
+                        <img class="favicon" src="../files/favicons/apple_music_favicon.png" alt="Apple Music"></a></li>
+                    <li><a href="https://soundcloud.com/byrdyrd" target="_blank">
+                        <img class="favicon" src="../files/favicons/soundcloud_favicon.png" alt="Soundcloud"></a></li>
+                    <li><a href="https://www.instagram.com/byrd.yrd" target="_blank">
+                        <img class="favicon" src="../files/favicons/instagram_favicon.png" alt="Instagram"></a></li>
+                    <li><a href="https://x.com/BYRD_YRD" target="_blank">
+                        <img class="favicon" src="../files/favicons/X_favicon.png" alt="X (Twitter)"></a></li>
+                </ul>
+            </div>
+            
+        </main>
+        <footer>
+            <!--footer-->
+            <form id="email_subscription" novalidate>
+                <label for="email_input">Subscribe to my E-mail list to never miss a new release!</label>
+
+                <input type="email" name="email_list" id="email_input" placeholder="E-mail: BYRDYRD@gmail.com">
+
+                <button type="submit" id="submit">Subscribe</button>
+                <span id="error_subscribe"></span>
+            </form>
+            <div>
+                <p id="copyright">Copyright &copy; 2025 Red Cedar Records</p>
+            </div>
+            <script src="../js/email_subscribe.js"></script>
+
+        </footer>
+    </div>  
+</body>
+</html>

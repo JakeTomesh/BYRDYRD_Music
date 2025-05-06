@@ -1,0 +1,40 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    max-height: 100vh;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+#spotify_player{
+    max-height: fit-content;
+    margin: 20px;
+    grid-column: 2/6;
+    grid-row: 2/4;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 40px rgba(79, 0, 182, 0.7), 0 0 70px rgba(16, 0, 46, 0.7);
+    border-radius: 10px;
+}
+#soundcloud_player{
+    grid-column: 2/6;
+    grid-row: 4/7;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 40px rgba(79, 0, 182, 0.7), 0 0 70px rgba(16, 0, 46, 0.7);
+    margin: 20px;
+    max-height: fit-content;
+}
+.page_transition {
+    animation: zoomOutFromLogo 1.5s ease-out forwards;
+}
+/* Keyframes for zoom-out effect */
+@keyframes zoomOutFromLogo {
+    0% {
+        transform: scale(20); /* Start from zoomed-in logo size (normal size) */
+        opacity: 0; /* Fully visible */
+    }
+    100% {
+        transform: scale(1); /* Zoom out to small size */
+        opacity: 1; /* Fade out */
+    }
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BYRDYRDFont', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*
+    outline: 1px solid red;
+    */
+}
+@font-face {
+    font-family: 'BYRDYRDFont';
+    src: url('../files/fonts/AURORA\ PERSONAL\ USE.ttf') format('truetype');  
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body{
+    width: 100vw;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+
+  
+}
+.site_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+   
+ 
+}
+.site_container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../files/images/PC\ Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+    z-index: -1;
+}
+h1{
+    grid-column: 2/6;
+    grid-row: 1/2;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+    letter-spacing: clamp(1px, .2vw, 4vw);
+}
+h2{
+    grid-column: 3/5;
+    grid-row: 2/4;
+    text-align: center;
+    color: aliceblue;
+}
+#socials_container{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    position:fixed;
+    top: 50%;
+    max-width: 40px;
+    max-height: 200px;
+    min-width: 30px;
+    margin: 5px;
+    background-color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 10;
+}
+#socials_container ul{
+    list-style-type: none;
+}
+.favicon{
+    padding: 1px;
+    max-width: 35px;
+    max-height: 35px;
+    min-width: 10px;
+    min-height: 10px;
+}
+@media (max-width: 400px){
+    #socials_container{
+    max-width: 20px;
+    max-height: 100px;
+    min-width: 15px;
+    }
+    .favicon{
+        padding: .5px;
+        max-width: 17.5px;
+        max-height: 17.5px;
+        min-width: 5px;
+        min-height: 5px;
+    }
+}

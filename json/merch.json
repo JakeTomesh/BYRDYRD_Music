@@ -1,0 +1,73 @@
+[
+    {
+        "item": "Black Hoodie",
+        "price": "60.00",
+        "image": "../files/images/merch/black_hoodie.png"
+    },
+    {
+        "item": "White Hoodie", 
+        "price": "60.00",
+        "image": "../files/images/merch/white_hoodie.png"
+
+    },
+    {
+        "item": "Purple Hoodie",
+        "price": "60.00",
+        "image": "../files/images/merch/purple_hoodie.png"
+
+    },
+    {
+        "item": "Black Crew Neck",
+        "price": "50.00",
+        "image": "../files/images/merch/black_crew_neck.png"
+
+    },
+    {
+        "item": "Black T-shirt",
+        "price": "25.00",
+        "image": "../files/images/merch/black_t_shirt.png"
+
+    },
+    {
+        "item": "White T-shirt",
+        "price": "25",
+        "image": "../files/images/merch/white_t_shirt.png"
+
+    },
+    {
+        "item": "Black Beanie",
+        "price": "12.00",
+        "image": "../files/images/merch/black_beanie.png"
+
+    },
+    {
+        "item": "Black Dad Hat",
+        "price": "12.00",
+        "image": "../files/images/merch/black_ball_cap.png"
+
+    },
+    {
+        "item": "White Coffee Mug",
+        "price": "8.00",
+        "image": "../files/images/merch/white_mug.png"
+
+    },
+    {
+        "item": "Purple Water Bottle",
+        "price": "10.00",
+        "image": "../files/images/merch/purple_water_bottle.png"
+
+    },
+    {
+        "item": "Purple Phone Case",
+        "price": "10.00",
+        "image": "../files/images/merch/purple_phone_case.png"
+
+    },
+    {
+        "item": "White Tote Bag",
+        "price": "12.00",
+        "image": "../files/images/merch/white_tote_bag.png"
+
+    }
+]

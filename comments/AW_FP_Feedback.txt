@@ -1,0 +1,100 @@
+--------------------------------------------------
+FP 03
+--------------------------------------------------
+Time on this part - 8hrs
+Total for the project - 16hrs
+
+Questions:
+Are you pleased with your progress so far?
+	Yes, I'm happy with how the construction is going with my website. 
+	Today, I worked on creating my shop page with a mock store. I'm working on creating images for fake clothes to be displayed and for it be as real as it can be. 
+
+	I've decided to switch some things around as well. After studying some more artist's webpages, I found that most of their index.html
+	pages are either a landing page for their tours or music and there really isnt much of a 'home' page. I thought that since I want to have a dedicated music page and I wont have any tour dates,
+	that I should rethink my home page. I decided to make my index page a landing page that is interactive and more artsy than most normal webpage index's. The landing page will re-direct directly
+	 to the music page via an animaiton using JavaScript. This ensures that my users have a unique experience when first visiting my webpage, then are defaulted to the music page, which would act 
+	 as a normal 'index.html' because it is the main content of my art/artist. I know this may be a unique approach to the requirements of the final assignment but I hope you can appreciate that 
+	 my webpage is not a "normal" webpage as its more artistically focused. This has challenged me greatly with styling and JavaScript.
+
+Is there anything you need from me?
+	
+Feedback/Fixes:
+Rene: 	Jake, looking at other websites is a good idea and conceptually, I like what you did. When I first ran the project, I wanted more, though. Perhaps not just the logo, but also the name? Not sure what, just something. Think about making the entire page clickable instead of just the logo.  
+
+Is it a limitation of Spotify that if I play and then pause an audio, the Get Spotify shows?
+
+Especially on the small screen can you move your socials_container up? I cannot enter an email. It's like your input is readonly or disabled. 
+
+
+
+When I ran your project using the "run" option in VS Code, I got this warning:
+
+WARNING: Processing source-maps of https://widget.sndcdn.com/widget-6-5eb2cb4aa6fd.js took longer than 11000 ms so we continued execution without waiting for all the breakpoints for the script to be set.WARNING: Processing source-maps of https://widget.sndcdn.com/widget-8-006be1acba9c.js took longer than 988.6116999999995 ms so we continued execution without waiting for all the breakpoints for the script to be set.Could not read source map for https://widget.sndcdn.com/widget-6-5eb2cb4aa6fd.js: Unexpected 503 response from http://ent/web-sourcemaps/widget-6-5eb2cb4aa6fd.js.map: getaddrinfo ENOTFOUND ent
+When I run it using Live Server, then everything is fine. Do you have your project on github? It should be and you should have included the url with this submission.
+
+You are making good progress.
+
+Fixes:  
+	I am working on making the landing page work more user friendly, but am running into trouble with some image stuff. 
+
+	Unfortunately, yes, the spotify embed is defaulted to that property once music is paused. 
+
+	I moved my socials bar up becuase it was being covered by the footer. I could also have made use of index's but i like the new position better as its more in the field of view of the user instead of hiding in the corner. 
+
+	I have made additions of JavaScript to the store an email subscription. 
+	I added in my font of my actual branding to the header and some head elements for better theme. 
+
+	I tried hard to utilize the skills we have learned in our assignments and implement them in aspects of my project. This is seen on the About Me page with a slide show. Also on the shop page with JavaScript saving information into session and retrieving it on a result page. 
+
+	I am not sure of the issues with my project not running in vs code, but I have been using Live Server for all of my developement. I will troubleshoot this issue. 
+
+	I have added my repository to github, although I find the github tools in vs code hard to follow. It wants me to commit all of my files in my AdvWeb folder instead of letting me select a project. 
+
+--------------------------------------------------
+FP 02
+--------------------------------------------------
+Time on this part - 7.5hrs
+Total for the project - 8hrs
+
+Questions:
+Are you pleased with your progress so far?
+	If yes, why?
+	Yes, I am quite pleased at the moment. I feel that I've gotten a good start and base code/styling done
+	so I can focus more on the implementation of JavaScript in the next assignments. I'm still not sure what I want my
+	home index page to be but I played around with embeding Spotify and Soundcloud players which I will move to the Music page eventually.
+	Since the main idea of this website is to be a landing page, the nav links take care of most of the directing and info for my page.
+	I'm thinking I will try to make the home index more artistic and design focused instead of information and written info like a typical webpage might be.
+
+	If no, why?
+Is there anything you need from me?
+
+Feedback/Fixes:
+Rene: 	Jake, looking good. Your label for="email_list" does not match the id for what it is for. Also make the email input type="email" instead of text. That will give some rudimentary validation and on a mobile device should bring up the keyboard with the @ sign.
+Fixes:  I changed the label for the email list to match the input and changed its type to "email". 
+
+--------------------------------------------------
+FP 01
+--------------------------------------------------
+Time on this part - 30min
+Total for the project - 30min
+
+Questions:
+Are you pleased with your progress so far?
+	If yes, why?
+    Yes, I am pleased with my outline and vision for my project. It is an idea I have had for many years and am excited to be able to create it and make it exist 
+	by my own hand and not some webpage drag and drop program like Wix or Squarespace. 
+
+	If no, why?
+Is there anything you need from me?
+At this moment, no. 
+
+Feedback/Fixes:
+Rene: 	Jake, I am glad this project excites you! Your project is a definite go. Do you have a favorite bird? I never tire of seeing bald eagles and pileated woodpeckers,
+ but I enjoy all birds. I don't know about Spotify, but to embed YouTube videos does not take JavaScript. The subscription page could use JavaScript. At this point, 
+ a media shop would be a simulation. But once you get to Apps Dev, you make a website that has a database (for storing customer information), so shopping would be more real.
+  I know that one of Andy's assignments (PHP, I think) does a shopping cart. You analyses of Kaivon and San Holo are spot on. Some animation can be done with only CSS.
+
+Fixes:  Thank you for your approval! I do have a favorite bird: the Macaw. I highlight this within my brand logo using the iconic macaw beak as my focus point. 
+I have looked into the Spotify embed and it can be done with JavaScript so I will aim to do so. I'm also happy with having my shop page be just a mock-up of what would eventually 
+be a fully-functioning shopping page after I learn those skills later in my program. I intend to upkeep and maintain this webpage to use as my own after this assignment as well, 
+so future proofing will come into play too. I think the animation will test my css skills quite well. 

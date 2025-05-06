@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header_footer_nav.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/about_me.css">
+    <title>ABOUT ME</title>
+</head>
+<body>
+    <div class="site_container">
+        <header>
+            <!--header nav bar -->
+            <div id="byrd_yrd_title">
+                <a id="header_logo_container" href="../index.html">
+                <img src="../files/images/BYRD YRD Logo WHITE BIGGER.png" alt="byrd_yrd_logo">
+                </a>
+                <h1 id="byrd_yrd">BYRD YRD</h1>
+                <script src="../js/header_logo.js"></script>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <!--<li><a href="../index.html">HOME</a></li>-->
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="about_me.html" current>ABOUT ME</a></li>
+                </ul>
+            </nav>
+            <div id="animated_line"></div>
+        </header>
+        <main>
+            <!--main & body-->
+            <h1 id="title">Who is BYRD YRD?</h1>
+            <h2>I am ...</h2>
+         
+            <div class="slideshow_container">
+                <ul>
+                    <li>
+                        <div class="slide">
+                            <img src="../files/images/about_me/union-square.jpg" alt="Head shot in Union Square">
+                            <h3>Cerebral</h3>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                           
+                            <img src="../files/images/about_me/night.jpg" alt="Night photo on top of hill">
+                            <h3>Nocturnal</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                            
+                            <img src="../files/images/about_me/jeff-straw.jpg" alt="Purple head shot profile picture">
+                            <h3>Curious</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                            <img src="../files/images/about_me/bayarea.jpg" alt="Picture by the Bay">
+                            <h3>Observant</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                            <img src="../files/images/about_me/owsla.jpg" alt="Artsy picture on bed">
+                            <h3>Experimental</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide">
+                            <img src="../files/images/about_me/corn.jpg" alt="Standing in a corn field">
+                            <h3>Authentic</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--socials links-->
+            <div id="socials_container">
+                <ul>
+                    <li><a href="https://open.spotify.com/artist/1zQ7Dm7Bs0stfLvPYYy0ov?si=3cpZ4_J9TDirCW177h87jw&nd=1&dlsi=4117d24c6c534dd1" target="_blank">
+                        <img class="favicon" src="../files/favicons/spotify_favicon.png" alt="Spotify"></a></li>
+                    <li><a href="https://music.apple.com/us/artist/byrd-yrd/1534844602" target="_blank">
+                        <img class="favicon" src="../files/favicons/apple_music_favicon.png" alt="Apple Music"></a></li>
+                    <li><a href="https://soundcloud.com/byrdyrd" target="_blank">
+                        <img class="favicon" src="../files/favicons/soundcloud_favicon.png" alt="Soundcloud"></a></li>
+                    <li><a href="https://www.instagram.com/byrd.yrd" target="_blank">
+                        <img class="favicon" src="../files/favicons/instagram_favicon.png" alt="Instagram"></a></li>
+                    <li><a href="https://x.com/BYRD_YRD" target="_blank">
+                        <img class="favicon" src="../files/favicons/X_favicon.png" alt="X (Twitter)"></a></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <!--footer-->
+            <form id="email_subscription" novalidate>
+                <label for="email_input">Subscribe to my E-mail list to never miss a new release!</label>
+
+                <input type="email" name="email_list" id="email_input" placeholder="E-mail: BYRDYRD@gmail.com">
+
+                <button type="submit" id="submit">Subscribe</button>
+                <span id="error_subscribe"></span>
+            </form>
+            <div>
+                <p id="copyright">Copyright &copy; 2025 Red Cedar Records</p>
+            </div>
+            <script src="../js/email_subscribe.js"></script>
+        </footer>
+    </div>  
+</body>
+</html>
