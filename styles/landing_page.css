@@ -30,21 +30,21 @@
     transform: scale(1.3); 
     
 }
-/* Apply the zoom-in effect when clicked */
+/*zoom-in effect when clicked*/
 #byrd_yrd_title_landing.clicked img {
     animation: zoomInEffect 1.5s ease-out forwards;
 }
 
 /* Keyframes */
 
-/* Animation for the logo falling */
+/*animation for the logo falling*/
 @keyframes fallIntoPlace {
     0% {
-        transform: translateY(-100vh); /* Start above the screen */
+        transform: translateY(-100vh); 
         opacity: 0;
     }
     100% {
-        transform: translateY(0); /* End in the center */
+        transform: translateY(0); 
         opacity: 1;
     }
 }
@@ -52,15 +52,15 @@
 /* Pulsing Effect */
 @keyframes pulse {
     0%, 100% {
-        transform: scale(1); /* Initial size */
+        transform: scale(1); 
         opacity: 1; 
     }
     50% {
-        transform: scale(1.2); /* Grow the logo */
+        transform: scale(1.2); 
         opacity: 0.7; 
     }
 }
-/* Zoom In for the logo when clicked */
+/*zoom In for the logo when clicked */
 @keyframes zoomInEffect {
     0% {
         transform: scale(1);
@@ -72,7 +72,7 @@
     }
 }
 
-/* Media Query */
+/* Media Queries */
     @media (max-width:400px){
         #byrd_yrd_title_landing img{
             width: 80%;

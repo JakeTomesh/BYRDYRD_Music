@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () =>{
    getElement("#checkout").addEventListener("click", validate);
 
 });
-
+//async function
 async function addToCart(event){
     const button = event.target;
     const itemContainer = button.closest(".item_container");
@@ -68,6 +68,7 @@ async function addToCart(event){
 
 }
 
+//async function
 async function getItem(imageId) {
    
     const jsonURL = "../json/merch.json";
@@ -95,9 +96,9 @@ async function getItem(imageId) {
     }
     return null;
 }
-
+//validate cart items
 function validate(e){
-    
+    //make sure cart is not empty
     if(totalCartItems === 0){
         getElement("#error").innerText = "*Please select at least one item*";
         e.preventDefault();

@@ -8,8 +8,10 @@ if (typeof window.getElement !== "function") {
 } else {
     console.log("getElement function is already declared.");
 }
-document.addEventListener("DOMContentLoaded", () =>{
 
+
+document.addEventListener("DOMContentLoaded", () =>{
+    //submit click
     getElement("#submit").addEventListener("click", subscribe);
 });
 

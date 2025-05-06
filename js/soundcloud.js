@@ -1,5 +1,5 @@
 "use strict";
-
+//copy embed from soundcloud site
 const soundcloudUrl = "https://soundcloud.com/byrdyrd";
         const oEmbedEndpoint = `https://soundcloud.com/oembed?format=json&url=${encodeURIComponent(soundcloudUrl)}`;
 

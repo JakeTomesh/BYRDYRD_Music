@@ -118,9 +118,17 @@ footer{
     margin-top: auto;
     z-index: 10;
 }
-#copyright{
+#contact_link{
+    color: wheat;
+}
+#copyright_contact, #copyright, #copyright_contact p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
-    font-size: 70%;
+    font-size: 90%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -160,9 +168,9 @@ footer{
     border-radius: 10px 10px 10px 10px;
     font-size: clamp(15px, 2vw, 1rem);
     padding: 5px;
-    max-width: 80%;   /* Ensures label doesn't exceed the container */
-    width: 100%;      /* Take the full available width */
-    height: auto;     /* Let the height adjust automatically */
+    max-width: 80%; 
+    width: 100%;    
+    height: auto;    
     color: black;
     text-shadow: 2px 2px 5px black;
     border: .2vw solid black;

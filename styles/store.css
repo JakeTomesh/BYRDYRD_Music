@@ -1,4 +1,7 @@
-
+main{
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
 h1{
     margin: 20px;
     font-size: 45px
@@ -11,8 +14,8 @@ h1{
     grid-row: 2/7;
     grid-column: 1/7;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* max 3 column */
-    grid-auto-rows: minmax(350px, auto); /* rows expand as content exceeds vh */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    grid-auto-rows: minmax(350px, auto); 
     gap: 20px;
     width: 100%;
     max-width: 100%;
@@ -172,8 +175,8 @@ h1{
         grid-template-columns: repeat(2, minmax(350px, 1fr)); /* 2 columns for medium screens */
     }
     .item_container {
-        height: 300px; /* Smaller height for medium screens */
-        max-width: 300px; /* Adjust width */
+        height: 300px;
+        max-width: 300px; 
     }
     h1{
         font-size: 30px
@@ -231,11 +234,11 @@ h1{
 
 @media (max-width: 700px) {
     #store_container {
-        grid-template-columns: repeat(1, minmax(350px, 1fr)); /* 1 column for small screens */
+        grid-template-columns: repeat(1, minmax(350px, 1fr)); /* 1 column for small screen */
     }
     .item_container {
-        height: 300px; /* Even smaller height for small screens */
-        max-width: 60%; /* Adjust width for small screens */
+        height: 300px; 
+        max-width: 60%; 
     }
     h1{
         font-size: 25px
