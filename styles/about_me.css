@@ -11,8 +11,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-bottom: 2em;
+    margin:  .5em auto .5em auto;
+
+
 }
 
 h3 {
@@ -27,18 +28,17 @@ h3 {
     letter-spacing: clamp(1px, 3vw, 10vw); 
     
 }
-
-
 .slideshow_container {
     width: 80vw;
-    height: 70vh;
-    min-height: 20vh;
+    height: fit-content;
+    min-height: 10vh;
     margin: auto;
+    margin-top: 5vh;
     overflow: hidden;
     position: relative;
     border: 2px solid black;
+    padding: 2em;
     margin-bottom: 2em;
-    padding-top: 2em;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(79, 0, 182, 0.7), 0 0 30px rgba(16, 0, 46, 0.7);
 }
 
@@ -48,7 +48,7 @@ h3 {
     margin: 0;
     animation-name: slideshow;
     animation-timing-function: ease-in-out;
-    animation-duration: 60s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     max-width: 400%;
